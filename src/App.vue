@@ -4,7 +4,7 @@
       <h2 id="tagline">Software Engineer</h2>
       <ul id="social">
           <li class="first"><a href="https://www.linkedin.com/in/mark-robinson-8b4813109/" target="_blank"><img src="./assets/linkedin.svg" alt="LinkedIn" width="32" height="32"/></a></li>
-          <li><a href="https://www.github.com/MarkRobbo" target="_blank"><img src="./assets/github.png" alt="Github" width="32" height="32"/></a></li>
+          <li><a href="https://github.com/MarkRobbo" target="_blank"><img src="./assets/github.png" alt="Github" width="32" height="32"/></a></li>
           <li><a href="mailto:me@markrobinson.dev" target="_blank"><img src="./assets/gmail.svg" alt="Email" width="32" height="32"/></a></li>
       </ul>
   </div>
