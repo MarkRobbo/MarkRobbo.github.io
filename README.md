@@ -22,5 +22,10 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Deployment to GitHub Pages
+```
+npm run gh-pages-deploy
+```
+This is automatically run using Github Actions on pushes to the `main` branch. 
+It builds the project and pushes the `dist` folder to the `gh-pages` branch for 
+publication.
