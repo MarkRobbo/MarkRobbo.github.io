@@ -1,18 +1,22 @@
 <template>
-  <div id="content">
-      <h1 id="name">Mark Robinson</h1>
-      <h2 id="tagline">Software Engineer</h2>
-      <ul id="social">
-          <li class="first"><a href="https://www.linkedin.com/in/mark-robinson-8b4813109/" target="_blank"><img src="./assets/linkedin.svg" alt="LinkedIn" width="32" height="32"/></a></li>
-          <li><a href="https://github.com/MarkRobbo" target="_blank"><img src="./assets/github.png" alt="Github" width="32" height="32"/></a></li>
-          <li><a href="mailto:me@markrobinson.dev" target="_blank"><img src="./assets/gmail.svg" alt="Email" width="32" height="32"/></a></li>
-      </ul>
-  </div>
+  <section id="wrapper">
+    <div id="content">
+      <Header />
+      <MainContent />
+    </div>
+  </section>
 </template>
 
 <script>
+import Header from './components/Header.vue'
+import MainContent from './components/MainContent.vue'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Header,
+    MainContent
+  }
 }
 </script>
 
@@ -29,43 +33,27 @@ export default {
 
 body {
   background-color: #f9f9f9;
-  overflow-y: hidden;
-}
-
-h1 {
-  font-weight: 500;
-  font-size: 48px;
-}
-
-h1, h2 {
+  width: 100%;
+  height: 100%;
   padding: 0;
   margin: 0;
 }
 
-li.first {
-  margin-left: 3px !important;
-}
-
-#social {
-  list-style-type: none;
-  overflow: hidden;
-  padding: 0;
-}
-
-#social li {
-  float: left;
-  margin-left: 15px
+#wrapper {
+  overflow: scroll;
+  height: 100%;
 }
 
 #content {
-  width: 375px;
-  height: 200px;
-  padding: 20px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  max-width: 900px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   margin: auto;
+}
+
+@media only screen and (max-width: 750px) {
+  #content {
+    padding-top: 10px;
+  }
 }
 </style>
