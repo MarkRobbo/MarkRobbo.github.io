@@ -12,9 +12,15 @@
     <div class="timelineWrapper">
       <div class="timeline">
         <div class="job">
+          <h3 class="company">Amazon Web Services - Software Development Engineer</h3>
+          <div class="description">
+            <em>Mar 2019 - Present</em>
+          </div>
+        </div>
+        <div class="job">
           <h3 class="company">Asto Digital - Software Engineer</h3>
           <div class="description">
-            <em>Oct 2019 - Present</em>
+            <em>Oct 2019 - Mar 2021</em>
             <p>Banco Santander owned independent "speedboat" venture focused on small business cashflow.</p>
             <p>Development of an invoicing solution as part of an agile team using Java microservices, completing a migration of over 1 million invoices from a legacy system.</p>
             <p>Contributed to infrastructure as code for our platform using Terraform to provision AWS resources and supported these (including a Kubernetes cluster) in an on-call capacity.</p>
