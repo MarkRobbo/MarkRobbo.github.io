@@ -14,7 +14,7 @@
         <div class="job">
           <h3 class="company">Amazon Web Services - Software Development Engineer</h3>
           <div class="description">
-            <em>Mar 2019 - Present</em>
+            <em>Mar 2021 - Present</em>
           </div>
         </div>
         <div class="job">
