@@ -12,16 +12,24 @@
     <div class="timelineWrapper">
       <div class="timeline">
         <div class="job">
-          <h3 class="company">Amazon Web Services - Software Development Engineer</h3>
+          <h3 class="company">Amazon Web Services - Senior Software Development Engineer</h3>
           <div class="description">
-            <em>Mar 2021 - Present</em>
+            <em>Oct 2022 - Present</em>
+            <p>Part of a development team building and providing operational support for developer tooling used both across Amazon and by external customers.</p>
+            <p>Design and development of highly available and scalable Java/Kotlin and Python based services on serverless infrastructure defined as code using AWS CDK.</p>
           </div>
         </div>
         <div class="job">
-          <h3 class="company">Asto Digital - Software Engineer</h3>
+          <h3 class="company">Amazon Web Services - Software Development Engineer</h3>
+          <div class="description">
+            <em>Mar 2021 - Oct 2022</em>
+          </div>
+        </div>
+        <div class="job">
+          <h3 class="company">Banco Santander - Software Engineer</h3>
           <div class="description">
             <em>Oct 2019 - Mar 2021</em>
-            <p>Banco Santander owned independent "speedboat" venture focused on small business cashflow.</p>
+            <p>Worked within Asto, an independent "speedboat" venture focused on small business cashflow and finance.</p>
             <p>Development of an invoicing solution as part of an agile team using Java microservices, completing a migration of over 1 million invoices from a legacy system.</p>
             <p>Contributed to infrastructure as code for our platform using Terraform to provision AWS resources and supported these (including a Kubernetes cluster) in an on-call capacity.</p>
           </div>
