@@ -1,6 +1,7 @@
 <template>
   <header>
     <div class="headerSection">
+      <img class="profile" src="./../assets/profile.jpg" width="200" height="200" />
       <h1 id="name">Mark Robinson</h1>
       <h2 id="tagline">Software Engineer</h2>
       <ul id="social">
@@ -56,12 +57,18 @@ li.first {
   margin-left: 15px
 }
 
+.profile {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
 @media only screen and (max-width: 750px) {
   header {
     position: relative;
     width: 100%;
     text-align: center;
     height: auto;
+    padding-left: 0;
   }
 
   #social {
