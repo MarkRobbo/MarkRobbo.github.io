@@ -12,6 +12,7 @@
     <div class="timelineWrapper">
       <div class="timeline">
         <div class="job">
+          <span class="logo"><img src="./../assets/aws-logo.svg" width="50" height="40" alt="AWS Logo" /></span>
           <h3 class="company">Amazon Web Services - Senior Software Development Engineer</h3>
           <div class="description">
             <em>Oct 2022 - Present</em>
@@ -20,12 +21,14 @@
           </div>
         </div>
         <div class="job">
+          <span class="logo"><img src="./../assets/aws-logo.svg" width="50" height="40" alt="AWS Logo" /></span>
           <h3 class="company">Amazon Web Services - Software Development Engineer</h3>
           <div class="description">
             <em>Mar 2021 - Oct 2022</em>
           </div>
         </div>
         <div class="job">
+          <span class="logo"><img src="./../assets/santander-logo.png" width="50" height="50" alt="Santander Logo" /></span>
           <h3 class="company">Banco Santander - Software Engineer</h3>
           <div class="description">
             <em>Oct 2019 - Mar 2021</em>
@@ -35,6 +38,7 @@
           </div>
         </div>
         <div class="job">
+          <span class="logo"><img src="./../assets/amex-logo.png" width="50" height="50" alt="American Express Logo" /></span>
           <h3 class="company">American Express - Software Engineer</h3>
           <div class="description">
             <em>Sept 2017 - Sept 2019</em>
@@ -43,6 +47,7 @@
           </div>
         </div>
         <div class="job">
+          <span class="logo"><img src="./../assets/manchester-uni-logo.png" width="50" height="25" alt="American Express Logo" /></span>
           <h3 class="company">University of Manchester - Junior Research Software Engineer</h3>
           <div class="description">
             <em>Jun 2017 - Aug 2017</em>
@@ -74,9 +79,7 @@ export default {
 <style>
 section.mainSection {
   margin-left: 400px;
-  padding: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 10px 30px;
 }
 
 section.mainSection h2 {
@@ -95,22 +98,22 @@ section.mainSection p {
 }
 
 .timeline .job {
-  margin-top: 15px;
   margin-bottom: 20px;
   margin-left: 40px;
 }
 
-.timeline .job .company::before {
-    position: relative;
-    display: block;
-    box-shadow: 0 0 0 4px #b9b9b9;
-    background: white;
-    border-radius: 50%;
-    height: 12px;
-    width: 12px;
-    content: "";
-    top: 16px;
-    left: -47px;
+.timeline .job .logo {
+  position: relative;
+  display: block;
+  height: 12px;
+  width: 12px;
+  top: 13px;
+  left: -68px;
+}
+
+.timeline .job .logo img {
+  background-color: #f9f9f9;
+  padding:2px;
 }
 
 .timeline .job .description {
@@ -120,6 +123,7 @@ section.mainSection p {
 .timeline {
   height: 100%;
   border-left: 2px solid #b9b9b9;
+  padding-top:0;
 }
 
 .timelineWrapper {
